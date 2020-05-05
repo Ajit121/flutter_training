@@ -23,12 +23,12 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      home: Scaffold(
+      home: HomePage()/*Scaffold(
         appBar: AppBar(
           title: Text("App bar"),
         ),
         body: LoginPage(),
-      ),
+      ),*/
     );
   }
 }
